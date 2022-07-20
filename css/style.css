@@ -126,6 +126,13 @@ img {
     color: var(--alternative-color);
 }
 
+.contacts-item::before {
+    content: "";
+    display: block;
+    background-color: #2196F3;
+    background-image: url(../images/smartphone.svg);
+}
+
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover, 
@@ -200,13 +207,28 @@ img {
     width: 270px;
     height: 120px;
     display: block;
-    background-image: url(../images/antenna.svg);
     background-color: #F5F4FA;
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
     border-radius: 4px;
     margin-bottom: 30px;
+}
+
+.icon-antenna::before {
+    background-image: url('../images/antenna.svg');
+}
+
+.icon-clock::before {
+    background-image: url('../images/clock.svg');
+}
+
+.icon-diagram::before {
+    background-image: url('../images/diagram.svg');
+}
+
+.icon-astronaut::before {
+    background-image: url('../images/astronaut.svg');
 }
 
 .peculiarities-title {
@@ -552,8 +574,12 @@ fill: #FFFFFF;
     margin-right: 30px;
     padding-bottom: 20px;
     outline: 1px solid #EEEEEE;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio-item:nth-child(-n + 6) {
