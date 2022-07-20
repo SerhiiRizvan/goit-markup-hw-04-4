@@ -117,20 +117,11 @@ img {
     margin-left: auto;
 }
 
-.contacts-item {
-    display: flex;
-}
-
-.contacts-item::before {
-    content: "";
-    margin-right: 10px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .header-mail,
 .header-tel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -147,6 +138,11 @@ img {
 
 .header-mail {
     margin-right: 50px;
+}
+
+.mail-icon {
+    fill: currentColor;
+    margin-right: 10px;
 }
 
 .hero {
