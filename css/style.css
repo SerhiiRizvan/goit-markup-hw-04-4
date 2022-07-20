@@ -129,18 +129,6 @@ img {
     background-size: cover;
 }
 
-.icon-envelope::before {
-    background-image: url(../images/envelope.svg);
-    width: 16px;
-    height: 12px;
-}
-
-.icon-smartphone::before {
-    background-image: url(../images/smartphone.svg);
-    width: 10px;
-    height: 16px;
-}
-
 .header-mail,
 .header-tel {
     font-weight: 500;
